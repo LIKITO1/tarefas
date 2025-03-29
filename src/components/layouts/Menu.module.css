@@ -1,0 +1,10 @@
+nav{
+    background:linear-gradient(to right,#081c24,#123447,#1c6e8c);
+    height:15dvh;
+    width: 100dvw;
+}
+.link{
+    color: #D0D0D0;
+    text-decoration: none;
+    font-size: 2vw;
+}

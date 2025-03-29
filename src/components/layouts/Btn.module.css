@@ -1,0 +1,13 @@
+.principal{
+    position: absolute;
+    top: 20dvh;
+    right: 15dvw;
+    padding: 1.2dvw;
+    border: none;
+}
+.criar{
+    background: #2C2C2C;
+    color: white;
+    font-weight: bold;
+    border-radius:10dvw;
+}
