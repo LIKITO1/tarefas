@@ -1,0 +1,11 @@
+.mensagem{
+    position:absolute;
+    top: 7.5vh;
+    background: black;
+    padding: 2vw;
+    border-radius: 1.3vw;
+    width: 50vw;
+}
+.success{
+    color: green;
+}
