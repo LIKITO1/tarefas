@@ -26,17 +26,19 @@ app.post("/criando",(req,res)=>{
             }
             res.send(true)
         })
+        connection.release()
     })
 })
 app.get("/api",(req,res)=>{
-    pool.getConnection(()=>{
-        pool.query("SELECT * FROM tarefas",(err,valor)=>{
+    pool.getConnection((err,connection)=>{
+        connection.query("SELECT * FROM tarefas",(err,valor)=>{
             if(err){
                 console.log(err);
                 return;
             }
             res.send(valor)
         })
+        connection.release()
     })
 })
 app.listen(5000,(err)=>{
